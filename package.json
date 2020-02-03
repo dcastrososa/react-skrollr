@@ -1,31 +1,43 @@
 {
-  "name": "react-skrollr",
-  "version": "1.0.4",
-  "description": "React Component parallax scrolling JavaScript library base on Skrollr",
-  "main": "lib/index.js",
-  "author": "[GAMO] Thawatchai Kuansombat (thawatchai.deartk@gmail.com)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/GA-MO/react-skrollr.git"
+  "_args": [
+    [
+      "react-skrollr@1.0.4",
+      "/var/www/html/pt/inverxo/views"
+    ]
+  ],
+  "_from": "react-skrollr@1.0.4",
+  "_id": "react-skrollr@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha1-X4pEJruniecOeNLycoMUmu+eaUw=",
+  "_location": "/react-skrollr",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-skrollr@1.0.4",
+    "name": "react-skrollr",
+    "escapedName": "react-skrollr",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-skrollr/-/react-skrollr-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/var/www/html/pt/inverxo/views",
+  "author": {
+    "name": "[GAMO] Thawatchai Kuansombat",
+    "url": "thawatchai.deartk@gmail.com"
   },
   "bugs": {
     "url": "https://github.com/GA-MO/react-skrollr/issues"
   },
-  "keywords": [
-    "react-skrollr",
-    "skrollr",
-    "react-parallax",
-    "parallax",
-    "scroll-parallax",
-    "react"
-  ],
-  "files": [
-    "lib"
-  ],
   "dependencies": {
     "skrollr": "0.6.26"
   },
+  "description": "React Component parallax scrolling JavaScript library base on Skrollr",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
@@ -36,13 +48,33 @@
     "react-dom": "16.0.0",
     "react-scripts": "1.0.0"
   },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/GA-MO/react-skrollr#readme",
+  "keywords": [
+    "react-skrollr",
+    "skrollr",
+    "react-parallax",
+    "parallax",
+    "scroll-parallax",
+    "react"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "react-skrollr",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GA-MO/react-skrollr.git"
+  },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
-    "serve": "serve -s build",
     "build-lib": "babel ./src/react-skrollr --out-dir lib",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prepublish": "npm run build-lib"
-  }
+    "prepublish": "npm run build-lib",
+    "serve": "serve -s build",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "version": "1.0.4"
 }
