@@ -35,7 +35,7 @@
     "url": "https://github.com/GA-MO/react-skrollr/issues"
   },
   "dependencies": {
-    "skrollr": "0.6.26"
+    "skrollr": "github:dcastrososa/skrollr"
   },
   "description": "React Component parallax scrolling JavaScript library base on Skrollr",
   "devDependencies": {
