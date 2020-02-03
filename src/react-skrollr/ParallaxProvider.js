@@ -23,7 +23,7 @@ export default class ParallaxProvider extends React.Component {
 
   isMobile = () => {
     return /Android|iPhone|iPad|iPod|BlackBerry/i.test(
-      navigator.userAgent || navigator.vendor || window.opera
+      navigator.userAgent || navigator.vendor
     )
   }
 
@@ -46,11 +46,9 @@ export default class ParallaxProvider extends React.Component {
 
   componentDidMount() {
     this.shouldInitOrDestroy()
-    window.addEventListener('resize', this.shouldInitOrDestroy)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.shouldInitOrDestroy)
     if (this.skrollr) this.skrollr.destroy()
   }
 
